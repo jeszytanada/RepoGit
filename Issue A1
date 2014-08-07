@@ -1,0 +1,15 @@
+Branch Forcing:
+**HEAD is the current place where the pointer is pointing (ex. if you are on the branch master then the HEAD is there; if you are on the commit with name C2 then the HEAD points there.) 
+
+e.g. git branch -f master C6
+
+→ -f meaning force even the head is not pointing to that branch
+→ master is the branch to move
+→ C6 is the commit where the master will be moved
+
+e.g. git branch -f bugFix HEAD~1
+
+→ -f meaning force even the head is not pointing to that branch
+→ bugFix is the branch that is needed to be moved
+→ above the HEAD is where we are going to put the bugFix branch
+
